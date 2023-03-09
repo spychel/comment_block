@@ -1,0 +1,31 @@
+.comment-reply
+    position: relative
+    background-color: var(--color-bright-900)
+    border: 0.1rem solid var(--color-black-440)
+    border-radius: 0.2rem
+    &__wrapper
+        display: grid
+        grid-template-columns: 1fr 1fr
+    &__author
+    &__date
+        width: 50%
+    &__text
+    &__validation
+        color: red
+        font-size: 1.2rem
+        display: flex
+        flex-direction: column
+    &__controls
+        padding: 1.6rem 2.4rem
+        overflow: hidden
+        border-top: 0.1rem solid var(--color-black-440)
+        background-color: var(--color-black-200)
+        margin: 0
+        list-style: none
+        display: flex
+        align-items: center
+        flex-wrap: wrap
+        & li
+            margin-top: 0
+            margin-right: 1.5rem
+            float: left

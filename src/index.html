@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="app">
+    <div class="app__inner">
+      <main>
+        <section class="comments"></section>
+        <section class="section_padding_none">
+          <div class="comment-reply">
+            <form>
+              <div class="comment-reply__wrapper">
+                <input class="input comment-reply__author" placeholder="Введите ваше имя" name="comment-author">
+                <div class="comment-reply__validation"></div>
+                <input class="input comment-reply__date" name="comment-date" type="date">
+                <div class="comment-reply__validation"></div>
+                <input class="input comment-reply__text" placeholder="Введите текст комментария" name="comment-text">
+                <div class="comment-reply__validation"></div>
+              </div>
+              <ul class="comment-reply__controls">
+                <li>
+                  <button class="button button_success" type="submit" name="button-comment-submit">Отправить  </button>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+  <script src="js/main.js" type="module"></script>
+</body>
