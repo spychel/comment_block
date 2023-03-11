@@ -1,4 +1,4 @@
-# Блок комментариев (вдохновлено Пикабу)
+# Блок комментариев
 ![Alt Text](https://github.com/spychel/comment_block/blob/master/result.gif)
 
 **How to launch:**
