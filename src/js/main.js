@@ -23,6 +23,6 @@ function onSubmit(e) {
     createComment(commentsBlock);
 }
 
-const firstComment = Comment('Иван Петров', '02.03.2022 08:42', 'Первый нах');
+const firstComment = Comment('Иван Петров', '02.03.2022 08:42', 'Тестовый комментарий');
 const commentsBlock = document.getElementsByClassName('comments')[0];
 commentsBlock.appendChild(firstComment);
