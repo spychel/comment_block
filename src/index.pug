@@ -9,7 +9,6 @@ body
   .app
     .app__inner
       main
-        section.comments
         section.section_padding_none
           .comment-reply
             form
@@ -22,7 +21,8 @@ body
                 .comment-reply__validation
               ul.comment-reply__controls
                 li
-                  button.button.button_success(type='submit' name="button-comment-submit") Отправить  
+                  button.button.button_success(type='submit' name="button-comment-submit") Отправить
+        section.comments
   script(src="js/main.js" type="module")
 
 
